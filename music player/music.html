@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="player">
+    <div class="player__header">
+    <div class="player__img player__img--absolute slider">
+    <button class="player__button player__button--absolute--nw playlist">
+    <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+    </button>
+    <button class="player__button player__button--absolute--center play">
+    <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+    <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+    </button>
+    <div class="slider__content">
+    <img class="img slider__img" src="loveme.jpg" alt="cover">
+    <img class="img slider__img" src="alan walker.jpg" alt="cover">
+    <img class="img slider__img" src="billie.jpg" alt="cover">
+    <img class="img slider__img" src="infinity.jpg" alt="cover">
+    <img class="img slider__img" src="Marshmello-Pic.jpg" alt="cover">
+    <img class="img slider__img" src="stay.jpg" alt="cover">
+    <img class="img slider__img" src="ff.jpg" alt="cover">
+    </div>
+    </div>
+    <div class="player__controls">
+    <button class="player__button back">
+    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+    </button>
+    <p class="player__context slider__context">
+    <strong class="slider__name"></strong>
+    <span class="player__title slider__title"></span>
+    </p>
+    <button class="player__button next">
+    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+    </button>
+    <div class="progres">
+    <div class="progres__filled"></div>
+    </div>
+    </div>
+    </div>
+    <ul class="player__playlist list">
+    <li class="player__song">
+    <img class="player__img img" src="loveme.jpg" alt="cover">
+    <p class="player__context">
+    <b class="player__song-name">Love me like you do</b>
+    <span class="flex">
+    <span class="player__title">Ellie Goulding</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="Love Me Like You Do(PagalWorld.com.se).mp3"></audio>
+    </li>
+    <li class="player__song">
+    <img class="player__img img" src="alan walker.jpg" alt="cover">
+    <p class="player__context">
+    <b class="player__song-name">Alone PT 2</b>
+    <span class="flex">
+    <span class="player__title">Alan Walker</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="Alone, Pt. II(PagalWorld.com.se).mp3"></audio>
+    </li>
+    <li class="player__song">
+    <img class="player__img img" src="billie.jpg" alt="cover">
+    <p class="player__context">
+    <b class="player__song-name">Lovely</b>
+    <span class="flex">
+    <span class="player__title">Lovely-Billieelish</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="Lovely(PagalWorld).mp3"></audio>
+    </li>
+    <li class="player__song">
+    <img class="player__img img" src="infinity.jpg" alt="cover">
+    <p class="player__context">
+    <b class="player__song-name">Infinity</b>
+    <span class="flex">
+    <span class="player__title">James Young</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="Infinity(PagalWorld.com.se).mp3"></audio>
+    </li>
+    <li class="player__song">
+    <img class="player__img img" src="Marshmello-Pic.jpg" alt="cover">
+    <p class="player__context ">
+    <b class="player__song-name">Numb</b>
+    <span class="flex">
+    <span class="player__title">Marshmello</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="Numb(PagalWorld).mp3"></audio>
+    </li>
+    <li class="player__song">
+    <img class="player__img img" src="stay.jpg" alt="cover">
+    <p class="player__context">
+    <b class="player__song-name">Stay</b>
+    <span class="flex">
+    <span class="player__title">Justin Bieber</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="Stay(PagalWorld.com.se).mp3"></audio>
+    </li>
+    <li class="player__song">
+    <img class="player__img img" src="ff.jpg" alt="cover">
+    <p class="player__context ">
+    <b class="player__song-name">See you Again <span class="uppercase"> charlie puth</span></b>
+    <span class="flex">
+    <span class="player__title">Wiz khalifa</span>
+    <span class="player__song-time"></span>
+    </span>
+    </p>
+    <audio class="audio" src="See You Again(PagalWorld.com.se).mp3"></audio>
+    </li>
+    </ul>
+    </div>
+
+    <script src="player.js"></script>
+</body>
+</html>
